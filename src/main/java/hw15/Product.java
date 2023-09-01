@@ -1,4 +1,4 @@
-package hw1;
+package hw15;
 import java.time.LocalDate;
 
 public class Product {
