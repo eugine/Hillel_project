@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
+import static java.util.stream.Collectors.toList;
 
 public class ProductManager {
     public static List<Product> getFilteredProducts(List<Product> products) {
@@ -24,7 +25,7 @@ public class ProductManager {
                         product.isDiscountAvailable(),
                         product.getDateAdded())
                 )
-                .collect(Collectors.toList());
+                .collect(toList());
     }
 
     public static Product getCheapestBook(List<Product> products) {
@@ -38,7 +39,7 @@ public class ProductManager {
         return products.stream()
                 .sorted(Comparator.comparing(Product::getDateAdded).reversed())
                 .limit(3)
-                .collect(Collectors.toList());
+                .collect(toList());
     }
 
     public static double calculateTotalCost(List<Product> products) {
