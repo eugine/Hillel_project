@@ -1,6 +1,9 @@
 package hw15;
+import lombok.*;
 import java.time.LocalDate;
 
+@Getter
+@ToString
 public class Product {
     private ProductCategory category;
     private double price;
@@ -12,31 +15,5 @@ public class Product {
         this.price = price;
         this.discountAvailable = discountAvailable;
         this.dateAdded = dateAdded;
-    }
-
-    public ProductCategory getCategory() {
-        return category;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public boolean isDiscountAvailable() {
-        return discountAvailable;
-    }
-
-    public LocalDate getDateAdded() {
-        return dateAdded;
-    }
-
-    @Override
-    public String toString() {
-        return "hw1.Product{" +
-                "category=" + category +
-                ", price=" + price +
-                ", discountAvailable=" + discountAvailable +
-                ", dateAdded=" + dateAdded +
-                '}';
     }
 }
