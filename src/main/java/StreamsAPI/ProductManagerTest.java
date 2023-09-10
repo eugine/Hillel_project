@@ -1,4 +1,4 @@
-package hw15;
+package StreamsAPI;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.time.LocalDate;

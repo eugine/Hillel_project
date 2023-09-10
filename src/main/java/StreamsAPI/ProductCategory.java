@@ -1,4 +1,4 @@
-package hw15;
+package StreamsAPI;
 public enum ProductCategory {
     BOOK,
     ELECTRONICS,

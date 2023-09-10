@@ -1,10 +1,10 @@
-package hw15;
+package StreamsAPI;
 import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-import static hw15.ProductGenerator.generateRandomProducts;
-import static hw15.ProductManager.*;
+import static StreamsAPI.ProductGenerator.generateRandomProducts;
+import static StreamsAPI.ProductManager.*;
 public class Runner {
     public static void main(String[] args) {
         // 1. Реалізувати метод отримання всіх продуктів у вигляді списку, категорія яких

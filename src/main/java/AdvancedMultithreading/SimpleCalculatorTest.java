@@ -1,4 +1,4 @@
-package hw17_AdvancedMultithreading;
+package AdvancedMultithreading;
 import org.junit.jupiter.api.Test;
 import java.util.concurrent.ExecutionException;
 import static org.junit.jupiter.api.Assertions.assertEquals;

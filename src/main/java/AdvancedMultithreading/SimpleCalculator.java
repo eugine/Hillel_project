@@ -1,4 +1,4 @@
-package hw17_AdvancedMultithreading;
+package AdvancedMultithreading;
 import java.util.concurrent.CompletableFuture;
 
 public class SimpleCalculator {

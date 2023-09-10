@@ -1,4 +1,4 @@
-package hw15;
+package StreamsAPI;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Random;

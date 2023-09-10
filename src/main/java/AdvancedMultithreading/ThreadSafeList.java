@@ -1,4 +1,4 @@
-package hw17_AdvancedMultithreading;
+package AdvancedMultithreading;
 import java.util.ArrayList;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;

@@ -1,4 +1,4 @@
-package hw17_AdvancedMultithreading;
+package AdvancedMultithreading;
 import java.util.concurrent.CompletableFuture;
 import java.util.Random;
 import java.util.concurrent.ForkJoinPool;

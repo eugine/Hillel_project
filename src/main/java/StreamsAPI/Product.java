@@ -1,4 +1,4 @@
-package hw15;
+package StreamsAPI;
 import lombok.*;
 import java.time.LocalDate;
 
