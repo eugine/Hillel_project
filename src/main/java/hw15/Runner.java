@@ -7,7 +7,8 @@ import static hw15.ProductGenerator.generateRandomProducts;
 import static hw15.ProductManager.*;
 public class Runner {
     public static void main(String[] args) {
-        // 1. Реалізувати метод отримання всіх продуктів у вигляді списку, категорія яких еквівалентна “Book” та ціна більш ніж 250.
+        // 1. Реалізувати метод отримання всіх продуктів у вигляді списку, категорія яких
+        // еквівалентна “Book” та ціна більш ніж 250.
 
         List<Product> products = generateRandomProducts(20);
         List<Product> filteredProducts = getFilteredProducts(products);
